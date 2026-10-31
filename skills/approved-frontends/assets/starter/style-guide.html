@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Style Guide · Field Notes</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header container">
+      <a class="brand" href="./index.html">Field Notes<span>Studio workspace</span></a>
+      <nav class="site-nav" aria-label="Main"><a href="./index.html">Workspace</a><a href="./style-guide.html" aria-current="page">Style guide</a></nav>
+    </header>
+    <main id="main" class="container stack" tabindex="-1">
+      <section class="intro stack" aria-labelledby="page-title">
+        <p class="eyebrow">Shared foundations</p>
+        <h1 id="page-title">A system with room to change.</h1>
+        <p class="lede">These specimens share the workspace stylesheet. Change its tokens to explore a palette, font pairing, or type rhythm.</p>
+      </section>
+      <section class="stack" aria-labelledby="palette-title">
+        <h2 id="palette-title">Palette roles</h2>
+        <ul class="swatch-list">
+          <li><span class="swatch swatch-page" aria-hidden="true"></span><strong>Page</strong><code>--color-page</code></li>
+          <li><span class="swatch swatch-surface" aria-hidden="true"></span><strong>Surface</strong><code>--color-surface</code></li>
+          <li><span class="swatch swatch-text" aria-hidden="true"></span><strong>Text</strong><code>--color-text</code></li>
+          <li><span class="swatch swatch-muted" aria-hidden="true"></span><strong>Muted text</strong><code>--color-muted</code></li>
+          <li><span class="swatch swatch-accent" aria-hidden="true"></span><strong>Accent</strong><code>--color-accent</code></li>
+          <li><span class="swatch swatch-tint" aria-hidden="true"></span><strong>Tint</strong><code>--color-tint</code></li>
+        </ul>
+      </section>
+      <section class="stack" aria-labelledby="type-title">
+        <h2 id="type-title">A connected type scale</h2>
+        <p>Six steps derive from <code>--type-base</code> and <code>--type-ratio</code>. Choose heading levels for meaning, then use the size appropriate to the page.</p>
+        <ul class="type-specimen">
+          <li><span class="type-step-5">Ideas worth shaping</span><code>--type-5</code></li>
+          <li><span class="type-step-4">Ideas worth shaping</span><code>--type-4</code></li>
+          <li><span class="type-step-3">Ideas worth shaping</span><code>--type-3</code></li>
+          <li><span class="type-step-2">Ideas worth shaping</span><code>--type-2</code></li>
+          <li><span class="type-step-1">Ideas worth shaping</span><code>--type-1</code></li>
+          <li><span class="type-step-0">Ideas worth shaping</span><code>--type-0</code></li>
+        </ul>
+        <p>Body text should feel comfortable across a few lines. A <a class="expressive-link" href="#native-title">plain text link</a> stays recognizable at rest and gains a little weight on hover or focus, while <code>monospace text</code> has its own font role.</p>
+      </section>
+      <section class="stack" aria-labelledby="native-title">
+        <h2 id="native-title">Native behavior, shared styling</h2>
+        <details><summary>What makes these foundations reusable?</summary><p>Semantic HTML, coordinated tokens, and section layers. This disclosure requires no JavaScript.</p></details>
+        <nav aria-label="Section navigation">
+          <details class="disclosure-nav">
+            <summary>Explore</summary>
+            <ul><li><a href="./index.html">Workspace</a></li><li><a href="#palette-title">Palette</a></li></ul>
+          </details>
+        </nav>
+        <div><a class="button" href="./index.html">Return to workspace</a></div>
+      </section>
+      <section class="panel stack" aria-labelledby="elevation-title">
+        <h2 id="elevation-title">A little elevation</h2>
+        <p>A restrained shadow casts down and left, with the light source at the top right. Flat surfaces remain the default elsewhere.</p>
+      </section>
+    </main>
+    <section class="section-banner" aria-labelledby="region-title">
+      <div class="container stack">
+        <h2 id="region-title">A region with its own character</h2>
+        <p>The background spans the page while its content keeps a comfortable reading width.</p>
+        <a href="./index.html">Return to the workspace</a>
+      </div>
+    </section>
+    <footer class="container site-footer"><p>One stylesheet. Several ways to make it yours.</p><a href="./index.html">Workspace</a></footer>
+  </body>
+</html>

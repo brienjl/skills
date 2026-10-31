@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Field Notes</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header container">
+      <a class="brand" href="./index.html">Field Notes<span>Studio workspace</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#overview">Overview</a>
+        <a href="#principles">Principles</a>
+        <a href="#about" data-open-dialog="about-dialog">About</a>
+      </nav>
+    </header>
+    <main id="main" class="container stack" tabindex="-1">
+      <section id="overview" class="intro stack" aria-labelledby="page-title">
+        <p class="eyebrow">A place for useful work</p>
+        <h1 id="page-title">Keep the essentials in view.</h1>
+        <p class="lede">Clear structure, a little breathing room, and tools that stay out of the way.</p>
+      </section>
+      <div class="workspace-grid">
+        <section class="panel stack" aria-labelledby="work-title">
+          <div class="section-heading">
+            <h2 id="work-title">Current work</h2>
+            <span class="badge">In progress</span>
+          </div>
+          <ul class="work-list">
+            <li><a href="#principles">Establish the foundations</a><span>Layout and rhythm</span></li>
+            <li><a href="#principles">Refine the details</a><span>Color and interaction</span></li>
+            <li><a href="#principles">Leave room to grow</a><span>Shared patterns</span></li>
+          </ul>
+        </section>
+        <aside class="note stack" aria-labelledby="note-title">
+          <p class="eyebrow">Working note</p>
+          <h2 id="note-title">Less friction. More focus.</h2>
+          <p>This palette is an example. Change the tokens to give your own workspace its character.</p>
+          <a class="button" href="#principles">View principles</a>
+        </aside>
+      </div>
+      <section id="principles" class="stack" aria-labelledby="principles-title">
+        <h2 id="principles-title">Built on simple foundations</h2>
+        <details>
+          <summary>Start with native HTML</summary>
+          <p>This disclosure works without JavaScript. Use the browser's own capabilities before building a replacement.</p>
+        </details>
+        <details>
+          <summary>Make changes easy to carry through</summary>
+          <p>Shared semantic tokens control color, spacing, and elevation. Layered CSS keeps each rule's role visible.</p>
+        </details>
+      </section>
+      <section id="about" class="stack" aria-labelledby="about-title">
+        <h2 id="about-title">About this starter</h2>
+        <p>Plain HTML, one shared stylesheet, and a small JavaScript module. All page content is available without an API.</p>
+      </section>
+    </main>
+    <footer class="container site-footer"><p>Made for a quieter kind of interface.</p><a href="./style-guide.html">Style guide</a></footer>
+    <dialog id="about-dialog" aria-labelledby="dialog-title">
+      <div class="stack">
+        <h2 id="dialog-title">Small by design</h2>
+        <p>This dialog enhances the About link. With JavaScript unavailable, that link leads to the About section.</p>
+        <form method="dialog"><button class="button" autofocus>Close</button></form>
+      </div>
+    </dialog>
+  </body>
+</html>

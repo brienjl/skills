@@ -1,0 +1,3 @@
+interface:
+  display_name: "Approved Frontends"
+  short_description: "Native frontends with Eleventy, Nunjucks, and HTMX"

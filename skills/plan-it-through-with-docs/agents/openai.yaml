@@ -1,0 +1,5 @@
+interface:
+  display_name: "Plan It Through With Docs"
+  short_description: "Plan through a design and write its docs"
+policy:
+  allow_implicit_invocation: false
